@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TCLgenerator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TCLgenerator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TCLgenerator-Debug-1d5825aa7602ce860d07.json",
+					"name" : "TCLgenerator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_1-Debug-4a99d4032584f1393c51.json",
+					"name" : "ex_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_basic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_basic-Debug-b2515245ef7d580db741.json",
+					"name" : "example_basic",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/master/TCLgenerator/build",
+		"source" : "/home/master/TCLgenerator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

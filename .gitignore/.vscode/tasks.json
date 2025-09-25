@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake-configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}",
+                "-B",
+                "${workspaceFolder}/build",
+                "-DGMSH_INCLUDE_DIR=/home/master/gmsh-4.11.1-Linux64-sdk/include",
+                "-DGMSH_LIB=/home/master/gmsh-4.11.1-Linux64-sdk/lib/libgmsh.so"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "cmake-build",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "${workspaceFolder}/build", "--target", "ex_1"],
+            "group": "build",
+            "dependsOn": "cmake-configure",
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
