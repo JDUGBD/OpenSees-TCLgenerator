@@ -1,5 +1,0 @@
-/home/master/TCLgenerator/build/CMakeFiles/TCLgenerator.dir
-/home/master/TCLgenerator/build/CMakeFiles/example_basic.dir
-/home/master/TCLgenerator/build/CMakeFiles/ex_1.dir
-/home/master/TCLgenerator/build/CMakeFiles/edit_cache.dir
-/home/master/TCLgenerator/build/CMakeFiles/rebuild_cache.dir
