@@ -73,15 +73,15 @@ CMakeFiles/ex_1.dir/examples/ex_1.cpp.o: CMakeFiles/ex_1.dir/flags.make
 CMakeFiles/ex_1.dir/examples/ex_1.cpp.o: /home/master/TCLgenerator/examples/ex_1.cpp
 CMakeFiles/ex_1.dir/examples/ex_1.cpp.o: CMakeFiles/ex_1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/master/TCLgenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex_1.dir/examples/ex_1.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex_1.dir/examples/ex_1.cpp.o -MF CMakeFiles/ex_1.dir/examples/ex_1.cpp.o.d -o CMakeFiles/ex_1.dir/examples/ex_1.cpp.o -c /home/master/TCLgenerator/examples/ex_1.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex_1.dir/examples/ex_1.cpp.o -MF CMakeFiles/ex_1.dir/examples/ex_1.cpp.o.d -o CMakeFiles/ex_1.dir/examples/ex_1.cpp.o -c /home/master/TCLgenerator/examples/ex_1.cpp
 
 CMakeFiles/ex_1.dir/examples/ex_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex_1.dir/examples/ex_1.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/TCLgenerator/examples/ex_1.cpp > CMakeFiles/ex_1.dir/examples/ex_1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/TCLgenerator/examples/ex_1.cpp > CMakeFiles/ex_1.dir/examples/ex_1.cpp.i
 
 CMakeFiles/ex_1.dir/examples/ex_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex_1.dir/examples/ex_1.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/TCLgenerator/examples/ex_1.cpp -o CMakeFiles/ex_1.dir/examples/ex_1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/TCLgenerator/examples/ex_1.cpp -o CMakeFiles/ex_1.dir/examples/ex_1.cpp.s
 
 # Object files for target ex_1
 ex_1_OBJECTS = \

@@ -73,15 +73,15 @@ CMakeFiles/example_basic.dir/examples/example_basic.cpp.o: CMakeFiles/example_ba
 CMakeFiles/example_basic.dir/examples/example_basic.cpp.o: /home/master/TCLgenerator/examples/example_basic.cpp
 CMakeFiles/example_basic.dir/examples/example_basic.cpp.o: CMakeFiles/example_basic.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/master/TCLgenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_basic.dir/examples/example_basic.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -MF CMakeFiles/example_basic.dir/examples/example_basic.cpp.o.d -o CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -c /home/master/TCLgenerator/examples/example_basic.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -MF CMakeFiles/example_basic.dir/examples/example_basic.cpp.o.d -o CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -c /home/master/TCLgenerator/examples/example_basic.cpp
 
 CMakeFiles/example_basic.dir/examples/example_basic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example_basic.dir/examples/example_basic.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/TCLgenerator/examples/example_basic.cpp > CMakeFiles/example_basic.dir/examples/example_basic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/master/TCLgenerator/examples/example_basic.cpp > CMakeFiles/example_basic.dir/examples/example_basic.cpp.i
 
 CMakeFiles/example_basic.dir/examples/example_basic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example_basic.dir/examples/example_basic.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/TCLgenerator/examples/example_basic.cpp -o CMakeFiles/example_basic.dir/examples/example_basic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/master/TCLgenerator/examples/example_basic.cpp -o CMakeFiles/example_basic.dir/examples/example_basic.cpp.s
 
 # Object files for target example_basic
 example_basic_OBJECTS = \

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -o bin/example_basic  -Wl,-rpath,/home/master/gmsh-4.11.1-Linux64-sdk/lib lib/libTCLgenerator.a /home/master/gmsh-4.11.1-Linux64-sdk/lib/libgmsh.so 
+/usr/bin/c++ CMakeFiles/example_basic.dir/examples/example_basic.cpp.o -o bin/example_basic  -Wl,-rpath,/home/master/gmsh-4.11.1-Linux64-sdk/lib lib/libTCLgenerator.a /home/master/gmsh-4.11.1-Linux64-sdk/lib/libgmsh.so 
