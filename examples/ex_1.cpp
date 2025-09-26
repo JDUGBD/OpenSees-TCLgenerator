@@ -12,7 +12,7 @@
 #include "RecorderWriter.h"
 #include "SectionWriter.h"
 #include "TimeSeriesWriter.h"
-#include "utils.h"
+#include "Utils.h"
 
 int main() {
   // Define Units N, mm, ton , s

@@ -46,7 +46,7 @@ set(SOURCES
     src/NodeWriter.cpp
     src/MaterialWriter.cpp
     src/RecorderWriter.cpp
-    src/utils.cpp
+    src/Utils.cpp
     src/TimeSeriesWriter.cpp
     src/LoadPatternWriter.cpp
     src/SectionWriter.cpp
@@ -61,7 +61,7 @@ set(HEADERS
     include/MaterialWriter.h
     include/Config.h
     include/RecorderWriter.h
-    include/utils.h
+    include/Utils.h
     include/TimeSeriesWriter.h
     include/LoadPatternWriter.h
     include/SectionWriter.h
