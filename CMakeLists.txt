@@ -76,8 +76,7 @@ target_link_libraries(TCLgenerator PRIVATE ${GMSH_LIB})
 # ----------------------------------------------------------------------
 # Examples
 # ----------------------------------------------------------------------
-add_executable(example_basic examples/example_basic.cpp)
-target_link_libraries(example_basic PRIVATE TCLgenerator ${GMSH_LIB})
+
 
 add_executable(ex_1 examples/ex_1.cpp)
 target_link_libraries(ex_1 PRIVATE TCLgenerator ${GMSH_LIB})
